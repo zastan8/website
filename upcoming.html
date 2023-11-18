@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="final.css">
+    <title>Home</title>
+  </head>
+  <body style="background-color: black;">
+    <header>
+      <h1 class="gold">T1's Fanpage </h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html" title="About Us">About Us</a></li>
+        <li><a href="roster.html" title="Current Roster">Current Roster</a></li>
+        <li><a href="tournament.html" title="Tournament History">Tournament History</a></li>
+        <li><a href="Upcoming.html" title="Upcoming Event">Upcoming Event</a></li>
+        <li><a href="contact.html" title="Contact us">Contacts</a></li>
+      </ul>
+    </nav>
+    <article>
+      <h2>Upcoming Event</h2>
+      <table id="Upcoming">
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Time</th>
+            <th>Venue</th>
+            <th>Description</th>
+            <th>Links</th>
+          </tr>
+        </thead>  
+        <tbody>
+          <tr>
+            <td class="upcomingtd">
+              <p>Nov 19, 2023</p>
+            </td>
+            <td class="upcomingtd">
+              00:00 PST <br> 09:00 CST <br> 17:00 KST
+            </td>
+            <td class="upcomingtd">
+              Gocheok Sky Dome in Seoul, Korea
+            </td>
+            <td class="upcomingtd">
+              Worlds 2023 Finals</td>
+            <td class="upcomingtd">
+              <a href = "https://www.twitch.tv/riotgames"> Official Twitch Stream</a> <br>
+              <a href = "https://www.youtube.com/watch?v=qR-qe3eiWNE&ab_channel=LoLEsports"> Official YouTube Stream</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <h2>Finals Preview</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/0YDiXGwtN6Q?si=alPmMOlUZ4sZrWk2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <h2> Youtube Live</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/qR-qe3eiWNE?si=J9PVNm_kMrRy7Gmb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <h3> Predictions</h3>
+      <form action="/action_page.php">
+        <label for="T1">T1</label>
+        <input type="text" id="fname" name="T1" placeholder="Score of T1">
+    
+        <label for="WBG">WBG</label>
+        <input type="text" id="lname" name="WBG" placeholder="Score of WBG">
+    
+        <label for="win">Winning Team</label>
+        <select id="win" name="win">
+          <option value="T1">T1</option>
+          <option value="WBG">WBG</option>
+        </select>
+        
+        <input type="submit" value="Submit">
+      </form>
+  </body>
+</html>
